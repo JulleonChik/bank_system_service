@@ -1,0 +1,24 @@
+
+POST http://localhost:8080/api/clients/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "testpassword",
+  "initialBalance": 1000.00,
+  "firstName": "John",
+  "middleName": "Doe",
+  "surname": "Smith",
+  "birthDate": "1990-01-01",
+  "phones": [
+    "1234567890",
+    "9876543210"
+  ],
+  "emails": [
+    "john.doe@example.com",
+    "doe.john@example.com"
+  ]
+}
+
+###
+
